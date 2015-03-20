@@ -2,7 +2,7 @@ package pardot.test;
 /*
  *Author - Umesh Marappa Reddy
  *Assumptions
- *          1. Ajax call response time is 3 seconds
+ *          1. Ajax call response time is 5 seconds
  *          2. For keeping test simple, I am not try/catching exceptions
  *          3. No logging api is used
  */
@@ -36,11 +36,12 @@ public class workflowTest {
 	private final static String LoginEmail = "pardot.applicant@pardot.com";
 	private final static String LoginPassword = "Applicant2012";
 
-	private final static int AjaxWaitTime = 3000;
+	private final static int AjaxWaitTime = 5000;
 
 	@BeforeClass
 	public static void setup() throws Exception {
 		webDriver = new FirefoxDriver();
+		webDriver.manage().window().maximize();
 		driverWait = new WebDriverWait(webDriver, 10);
 		//log into application
 		login();                       
