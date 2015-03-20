@@ -17,5 +17,5 @@ Getting Started
 
 1. Download the project
 2. Open the project in eclipse as a maven project
-3. Set loginemail and loginpassword in workFlowTest.java file
+3. Set LoginEmail and LoginPassword variables in workFlowTest.java file
 4. To run the test, right click on workFlowTest.java and RunAs -> Junit Test or mvn clean install 
