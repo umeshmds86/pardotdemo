@@ -33,8 +33,8 @@ public class workflowTest {
 	private static WebDriverWait driverWait;
 
 	//login info
-	private final static String LoginEmail = "pardot.applicant@pardot.com";
-	private final static String LoginPassword = "Applicant2012";
+	private final static String LoginEmail = "testemail";
+	private final static String LoginPassword = "testpass";
 
 	private final static int AjaxWaitTime = 5000;
 
