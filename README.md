@@ -8,7 +8,7 @@ pardotdemo is a simple test project which performs below actions
  4. Rename the original list
  5. Ensure the system allows the creation of another list with the original name now that the original list is renamed
  6. Create a new prospect (Prospect > Prospect List)
- 7. Add your new prospect to the newly created list
+ 7. Add new prospect to the newly created list
  8. Ensure the new prospect is successfully added to the list upon save
  9. Send a text only email to the list (Marketing > Emails)
 10. Log out
